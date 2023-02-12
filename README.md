@@ -1,1 +1,1 @@
-# BLS
+# Beauty-Life-Studio
