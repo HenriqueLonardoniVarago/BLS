@@ -1,0 +1,588 @@
+/* General Tags */
+
+* {
+
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+*::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+body {
+
+  background-color: white;
+
+}
+
+a {
+
+  font-family: monospace;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+a::after {
+
+  text-decoration: none;
+
+}
+
+
+/* Header */
+
+.main-header {
+
+  position: relative;
+  background-image: linear-gradient(165deg, rgb(173, 255, 47), rgb(245, 222, 179));
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+
+}
+
+.main-h2 {
+
+  font-family: Satisfy, Pacifico, cursive;
+  font-weight: bold;
+  font-size: 2.4vw;
+  line-height: 100%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+
+}
+
+.social-media {
+
+  display: inline-block;
+  position: absolute;
+  top: 29%;
+  right: 4%;
+
+}
+
+.icon-things {
+
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  margin-right: 15px;
+
+}
+
+
+/* Nav Bar */
+
+.main-nav {
+
+  position: sticky;
+  top: 0;
+  background-color: rgba(173, 255, 47,0.2);
+  width: 100%;
+  height: 5px;
+  font-size: 0;
+  z-index: 1;
+
+}
+
+.main-nav:hover {
+
+  height: 50px;
+  font-size: 20px;
+  line-height: 230%;
+  text-align: center;
+
+}
+
+.main-nav::after {
+
+  height: 50px;
+  font-size: 20px;
+  line-height: 230%;
+  text-align: center;
+
+}
+
+.main-menu {
+
+  margin-right: 20px;
+
+}
+
+
+/* Makeup Section */
+
+.makeup {
+
+  /* background-color: rgb(173, 255, 47); */
+  position: relative;
+  left: 14.5%;
+  width: 70vw;
+  height: 1320px;
+  overflow: auto;
+
+}
+
+.makeup-art {
+
+  display: inline-block;
+  position: relative;
+  left: 8.5%;
+  width: 80%;
+  padding: 10px;
+  border-left: solid black 5px;
+  border-right: solid black 5px;
+  border-bottom: solid black 5px;
+  background-color: rgb(245, 222, 179,0.5);
+
+}
+
+.h2title-things {
+
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.h3m-things {
+
+ font-size: 32px;
+ font-weight: bold;
+ text-align: center;
+
+}
+
+.pm-things {
+
+  font-size: 24px;
+  margin-top: -10px;
+  margin-bottom: 70px;
+  text-align: center;
+
+}
+
+.pm-things2 {
+  
+  font-size: 24px;
+  margin-top: -80px;
+  margin-bottom: 70px;
+  text-align: center;
+
+}
+
+.pm-things3 {
+  
+  font-size: 24px;
+  margin-top: -80px;
+  margin-bottom: 70px;
+  text-align: center;
+
+}
+
+.makeup-images {
+ 
+ width: 90px;
+ height: 93px;
+ border-radius: 30%;
+ border: solid black 3.5px;
+
+}
+
+.over-makeup {
+
+  display: inline-block;
+  position: relative;
+  left: 44%;
+  bottom: 50px;
+  width: 100px;
+  height: 100px;
+  overflow: auto;
+  margin-bottom: 40px;
+
+}
+
+
+/* Art Articles */
+
+#nails-art {
+
+  position: relative;
+  top: 10px;
+
+}
+
+#eyes-art {
+
+  position: relative;
+  top: 100px;
+
+}
+
+#lips-art {
+
+  position: relative;
+  top: 190px;
+
+}
+
+#facial-art {
+
+  position: relative;
+  top: 280px;
+
+}
+
+
+/* Footer */
+
+.footer {
+
+  background-image: linear-gradient(165deg, rgb(173, 255, 47), rgb(245, 222, 179));
+  width: 100%;
+  height: 170px;
+  margin-top: 100px;
+  border-bottom: solid black 10px;
+
+}
+
+.footer-h2 {
+
+  display: inline-block;
+  position: relative;
+  font-family: Satisfy, Pacifico, cursive;
+  font-weight: bold;
+  font-size: 48px;
+  top: -10px;
+  left: 38vw;
+
+
+}
+
+#about-us {
+
+  display: inline-block;
+  position: relative;
+  overflow: auto;
+  width: 300px;
+  height: 69%;
+  right: -45%;
+  bottom: -24px;
+
+}
+
+.about-h3 {
+
+  text-align: center;
+  font-size: 32px;
+  line-height: 45px;
+
+}
+
+.about-p {
+
+  margin: 10px 10px;
+  text-align: justify;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.local-link {
+
+  font-family: 'Amatic SC', cursive;
+  margin: 0px 0px;
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.credits {
+
+  display: inline-block;
+  position: relative;
+  bottom: -15%;
+  left: -280px;
+  font-size: 32px;
+
+}
+
+.footer-link {
+
+  display: block;
+  font-size: 16px;
+  line-height: 100%;
+
+}
+
+
+/* Responsiveness in Computer and Tablet */
+
+@media screen and (max-width:1400px) {
+  
+  #about-us {
+
+    bottom: -30px;
+    right: -39%;
+  
+  }
+
+}
+
+@media screen and (max-width:1248px) {
+  
+  #about-us {
+
+    bottom: -30px;
+    right: -40%;
+    width: 200px;
+  
+  }
+
+  .about-p, .local-link {
+
+    font-size: 16px;
+
+  }
+
+}
+
+@media screen and (max-width:1148px) {
+  
+  #about-us {
+
+    bottom: -30px;
+    right: -35%;
+  
+  }
+
+}
+
+@media screen and (max-width:1033px) {
+
+  .icon-things {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+  }
+
+  .social-media {
+
+    top: 35%;
+    height: 10px;
+
+  }
+
+  .main-h2 {
+
+    line-height: 135%;
+
+  }
+
+  .over-makeup {
+
+    left: 40%;
+  
+  }
+
+  .footer-h2 {
+
+    font-size: 35px;
+    left: 38vw;
+  
+  }
+
+  #about-us {
+
+    bottom: -28px;
+    right: -33%;
+  
+  }
+
+  .about-p, .local-link {
+
+    margin: 10px 10px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+  
+  }
+
+  .credits {
+
+    left: -185px;
+    bottom: -16.4%;
+ 
+   }
+
+}
+
+@media screen and (max-width:873px) {
+
+  #about-us {
+
+    bottom: -28px;
+    right: -27%;
+  
+  }
+
+}
+
+@media screen and (max-width:756px) {
+
+  .icon-things {
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+  }
+
+  .main-h2 {
+
+    line-height: 157%;
+
+  }
+
+  .main-nav:hover {
+
+    height: 50px;
+    font-size: 15px;
+    line-height: 315%;
+  
+  }
+
+  .over-makeup {
+
+    left: 35%;
+  
+  }
+
+  .footer-h2 {
+
+    font-size: 30px;
+    left: 35vw;
+  
+  }
+
+  #about-us {
+
+    bottom: -31px;
+    width: 150px;
+  
+  }
+
+  .about-p, .local-link {
+
+    margin: 10px 10px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+
+}
+
+@media screen and (max-width:650px) {
+
+  #about-us {
+
+    bottom: -31px;
+    right: -23%;
+    width: 120px;
+  
+  }
+
+}
+
+@media screen and (max-width:574px) {
+
+  .makeup {
+
+    left: 13.5%;
+  
+  }
+
+  .icon-things {
+
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+
+  }
+
+  .main-h2 {
+
+    line-height: 170%;
+    font-size: 14px;
+
+  }
+
+  .main-nav:hover {
+
+    height: 40px;
+    font-size: 12px;
+    line-height: 335%;
+  
+  }
+
+  .over-makeup {
+
+    left: 30%;
+  
+  }
+
+  .footer-h2 {
+
+    font-size: 30px;
+    left: 31vw;
+  
+  }
+
+  #about-us {
+
+    bottom: -27.5px;
+    right: -15%;
+
+  }
+  
+  .about-p, .local-link {
+
+    margin: 10px 10px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+
+  .credits {
+
+    bottom: -12%;
+ 
+   }
+
+}
+
+@media screen and (max-width:520px) {
+
+#about-us {
+
+  bottom: -27.5px;
+  right: -10%;
+
+}
+
+}
